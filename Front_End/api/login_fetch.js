@@ -18,7 +18,7 @@ login.addEventListener('submit', async (event) => {
 
     try{
 
-        const response = await fetch(`http://localhost:3000/login/admin`, {
+        const response = await fetch(`https://admin-mdrrmo.onrender.com/login/admin`, {
 
             method: 'POST',
             headers: { 'Content-Type' : 'application/json' },
@@ -76,3 +76,4 @@ function showSnackbar(message, type = "success") {
   };
 
 }
+
