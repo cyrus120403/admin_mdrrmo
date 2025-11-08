@@ -36,7 +36,7 @@ register.addEventListener('submit', async(event) => {
 
     try{
 
-        const response = await fetch(`http://localhost:3000/register/admin`, {
+        const response = await fetch(`https://admin-mdrrmo.onrender.com/register/admin`, {
 
             method: 'POST',
             headers: {
@@ -99,3 +99,4 @@ function showSnackbar(message, type = "success") {
   };
 
 }
+
